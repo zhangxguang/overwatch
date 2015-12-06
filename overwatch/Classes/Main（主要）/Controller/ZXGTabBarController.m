@@ -65,7 +65,7 @@
 {
     //添加第一个子控制器
     HomeViewController *oneVC = [[HomeViewController alloc] init];
-    [self setUpOneChildViewController:oneVC image:[UIImage imageNamed:@"radar_icon_people"] selectedImage:[UIImage imageNamed:@"radar_icon_people_selected"] title:@"首页"];
+    [self setUpOneChildViewController:oneVC image:[UIImage imageNamed:@"tabbar_home"] selectedImage:[UIImage imageNamed:@"tabbar_home_highlighted"] title:@"首页"];
     //添加第二个子控制器
     HeroCollectionViewController *twoVC = [[HeroCollectionViewController alloc] init];
     [self setUpOneChildViewController:twoVC image:[UIImage imageNamed:@"radar_icon_people"] selectedImage:[UIImage imageNamed:@"radar_icon_people_selected"] title:@"英雄"];

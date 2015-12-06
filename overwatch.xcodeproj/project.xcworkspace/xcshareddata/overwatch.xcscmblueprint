@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "094424065FF4F1EEE6A3E05862DAFE022227714B",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8369C627CFCA1D6BA65ADBD3B0BC63D65BDCD98B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "094424065FF4F1EEE6A3E05862DAFE022227714B" : 0,
     "FD1D6F72BD49749DB0C6DCC5777E0D807A77ABAF" : 0,
-    "094424065FF4F1EEE6A3E05862DAFE022227714B" : 0
+    "8369C627CFCA1D6BA65ADBD3B0BC63D65BDCD98B" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7DA66950-366C-4192-9744-5EAA7096F102",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "094424065FF4F1EEE6A3E05862DAFE022227714B" : "overwatch%201130\/",
     "FD1D6F72BD49749DB0C6DCC5777E0D807A77ABAF" : "overwatch%201130\/overwatch\/Classes\/Other\/SDCycleScrollView\/",
-    "094424065FF4F1EEE6A3E05862DAFE022227714B" : "overwatch%201130\/"
+    "8369C627CFCA1D6BA65ADBD3B0BC63D65BDCD98B" : "overwatch\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "overwatch",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhangxguang\/overwatch.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "094424065FF4F1EEE6A3E05862DAFE022227714B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhangxguang\/overwatch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8369C627CFCA1D6BA65ADBD3B0BC63D65BDCD98B"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gsdios\/SDCycleScrollView.git",
