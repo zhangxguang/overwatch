@@ -49,7 +49,9 @@ iPhone6S
 
 ![image](https://github.com/zhangxguang/overwatch-picture/blob/master/%E8%8B%B1%E9%9B%84%E6%94%B6%E8%97%8F%20%E6%B2%A1%E6%9C%89%E6%94%B6%E8%97%8F%E4%BB%BB%E4%BD%95%E8%8B%B1%E9%9B%84%E7%9A%84%E6%8F%90%E7%A4%BA.png)
 
+7、清除缓存
 
+![image](https://github.com/zhangxguang/overwatch-picture/blob/master/overwatch%20%E6%B8%85%E9%99%A4%E7%BC%93%E5%AD%98.png)
 
 
 
