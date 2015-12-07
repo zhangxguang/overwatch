@@ -4,6 +4,15 @@
 1、利用tableView展示新闻。（新闻url抓取自APP《兔玩》）
 
 ![image](https://github.com/zhangxguang/overwatch-picture/blob/master/overwatch%20%E9%A6%96%E9%A1%B5.png)
+
+下拉刷新
+
+![image](https://github.com/zhangxguang/overwatch-picture/blob/master/overwatch%20%E9%A6%96%E9%A1%B5%E4%B8%8B%E6%8B%89%E5%88%B7%E6%96%B0.png)
+
+上拉加载
+
+![image](https://github.com/zhangxguang/overwatch-picture/blob/master/overwatch%20%E4%B8%8A%E6%8B%89%E5%8A%A0%E8%BD%BD.png)
+
  
 2、利用collectionView展示英雄
 
