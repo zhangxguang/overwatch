@@ -39,7 +39,7 @@ iPhone6S
 
 5、利用MediaPlayer播放网络视频
 
-![image](https://github.com/zhangxguang/overwatch-picture/blob/master/%E8%8B%B1%E9%9B%84%E6%A6%82%E8%BF%B0%206S.png)
+![image](https://github.com/zhangxguang/overwatch-picture/blob/master/%E6%92%AD%E6%94%BE%E7%BD%91%E7%BB%9C%E8%A7%86%E9%A2%91.png)
  
 6、通过沙盒固化实现收藏英雄的功能
 
