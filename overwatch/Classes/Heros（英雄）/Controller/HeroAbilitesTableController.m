@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //设置滚动条为白色
     self.tableView.indicatorStyle = UIScrollViewIndicatorStyleWhite;
     self.tableView.backgroundColor = [UIColor clearColor];
 }

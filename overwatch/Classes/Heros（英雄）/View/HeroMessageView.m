@@ -14,6 +14,8 @@
 #define NAMEFONT [UIFont systemFontOfSize:25]
 #define NAMEVIEWFONT [UIFont systemFontOfSize:15]
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
 @interface HeroMessageView()
 @property (nonatomic, weak) UIView *bigView;
@@ -31,12 +33,10 @@
 - (id)initWithFrame:(CGRect)frame
 {
     if (self = [super initWithFrame:frame]) {
-        self.frame = frame;
-        self.showsHorizontalScrollIndicator = NO;
-        self.contentOffset = CGPointMake(0, 0);
-        self.pagingEnabled = YES;
-        self.scrollEnabled = YES;
         
+        self.frame = frame;
+        self.alwaysBounceVertical = YES;
+
         UIView *bigView = [[UIView alloc] init];
         [self addSubview:bigView];
         self.bigView = bigView;
@@ -115,17 +115,14 @@
     //英雄名称
     self.nameView.text =  message.name;
     CGSize nameSize = [message.name sizeWithAttributes:@{NSFontAttributeName:NAMEFONT}];
-    NSLog(@"%@" ,NSStringFromCGSize(nameSize));
     [sizeArray addObject:NSStringFromCGSize(nameSize)];
     //英雄定位
     self.roleView.text = message.role;
     CGSize roleSize = [message.role sizeWithAttributes:@{NSFontAttributeName:NAMEVIEWFONT}];
-    NSLog(@"%@" ,NSStringFromCGSize(roleSize));
     [sizeArray addObject:NSStringFromCGSize(roleSize)];
     //英雄职业
     self.occupationView.text = message.occupation;
     CGSize occupationSize = [message.occupation sizeWithAttributes:@{NSFontAttributeName:NAMEVIEWFONT}];
-    NSLog(@"%@" ,NSStringFromCGSize(occupationSize));
     [sizeArray addObject:NSStringFromCGSize(occupationSize)];
     
     //获得前三个label的最大宽度
@@ -140,17 +137,14 @@
     //英雄全称
     self.realNameView.text = message.realName;
     CGSize realNameSize = [message.realName sizeWithAttributes:@{NSFontAttributeName:NAMEVIEWFONT}];
-    NSLog(@"%@" ,NSStringFromCGSize(realNameSize));
     [sizeArray addObject:NSStringFromCGSize(realNameSize)];
     //英雄行动基地
     self.baseOfOperationsView.text = message.baseOfOperations;
     CGSize baseOfOperationsSize = [message.baseOfOperations sizeWithAttributes:@{NSFontAttributeName:NAMEVIEWFONT}];
-    NSLog(@"%@" ,NSStringFromCGSize(baseOfOperationsSize));
     [sizeArray addObject:NSStringFromCGSize(baseOfOperationsSize)];
     //英雄隶属
     self.affiliationView.text = message.affiliation;
     CGSize affiliationSize = [message.affiliation sizeWithAttributes:@{NSFontAttributeName:NAMEVIEWFONT}];
-    NSLog(@"%@" ,NSStringFromCGSize(affiliationSize));
     [sizeArray addObject:NSStringFromCGSize(affiliationSize)];
     
     //找出所有label中宽度最大的一个
@@ -173,10 +167,11 @@
     }
     //bigView与superView之间的间隙
     CGFloat bigViewPadding = (kScreenWidth - bigViewWidth) / 2;
-    NSLog(@"MAXWidth_all %f" ,MAXWidth_all);
-    NSLog(@"bigViewWidth %f" ,bigViewWidth);
+//    NSLog(@"MAXWidth_all %f" ,MAXWidth_all);
+//    NSLog(@"bigViewWidth %f" ,bigViewWidth);
 
 //    self.bigView.backgroundColor = [UIColor grayColor];
+    
 #pragma mark - 自动布局 Masonry
     //英雄图片
     [self.pictureView mas_makeConstraints:^(MASConstraintMaker *make) {
