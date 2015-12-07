@@ -15,14 +15,17 @@
 
 4、利用Masonry布局英雄概述，实现自动布局
 
-4S
+iPhone4S
+
 ![image](https://github.com/zhangxguang/overwatch-picture/blob/master/%E8%8B%B1%E9%9B%84%E6%A6%82%E8%BF%B0%204S.png)
 ![image](https://github.com/zhangxguang/overwatch-picture/blob/master/%E8%8B%B1%E9%9B%84%E6%A6%82%E8%BF%B0%204S%2001.png)
 
-5S
+iPhone5S
+
 ![image](https://github.com/zhangxguang/overwatch-picture/blob/master/%E8%8B%B1%E9%9B%84%E6%A6%82%E8%BF%B0%205S.png)
 
-6S
+iPhone6S
+
 ![image](https://github.com/zhangxguang/overwatch-picture/blob/master/%E8%8B%B1%E9%9B%84%E6%A6%82%E8%BF%B0%206S.png)
 
 3、利用MediaPlayer播放网络视频
