@@ -15,8 +15,7 @@
                     <rect key="frame" x="12" y="0.0" width="80" height="80"/>
                     <animations/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="80" id="8X1-mZ-cQZ"/>
-                        <constraint firstAttribute="height" constant="80" id="B67-xe-f6s"/>
+                        <constraint firstAttribute="width" constant="80" id="jfw-gB-1Di"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zlf-Jp-DVL">
@@ -36,8 +35,9 @@
             <constraints>
                 <constraint firstItem="Zlf-Jp-DVL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8S6-nN-B0p"/>
                 <constraint firstItem="Zlf-Jp-DVL" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="AuC-DD-LYI"/>
-                <constraint firstItem="Oi8-Dm-dzi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="UjQ-No-2wp"/>
-                <constraint firstItem="Oi8-Dm-dzi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="VLK-bP-Zzn"/>
+                <constraint firstAttribute="bottom" secondItem="Oi8-Dm-dzi" secondAttribute="bottom" id="OeG-re-NbY"/>
+                <constraint firstItem="Oi8-Dm-dzi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="fns-q1-RSR"/>
+                <constraint firstItem="Oi8-Dm-dzi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lDn-EW-5mO"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

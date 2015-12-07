@@ -16,7 +16,7 @@
     _message = message;
     
     //子控件之间的间距
-    CGFloat padding = 10.0;
+    CGFloat padding = 5.0;
     //屏幕宽度
     CGFloat screenW = [UIScreen mainScreen].bounds.size.width;
     

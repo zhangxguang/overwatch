@@ -41,7 +41,7 @@
     [super prepareLayout];
     
     //设置itemSize
-    if (kScreenWidth <= 320) {
+    if ((kScreenWidth <= 320) && (kScreenHeight <= 480)) {
         CGFloat margin = (kScreenWidth - ITEM_WIDTH_3_2)/2.0;
         self.itemSize = CGSizeMake(ITEM_WIDTH_3_2, ITEM_HEIGHT_3_2);
         self.sectionInset = UIEdgeInsetsMake(0, ABS(margin), kScreenHeight * 0.1, ABS(margin));
