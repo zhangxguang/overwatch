@@ -1,7 +1,7 @@
 # overwatch
 一个小demo获取网络数据用来展示《守望先锋》新闻，加载本地数据展示英雄及其详细数据
 
-1、利用AFN/SDWebImage获取网络数据、tableView展示首页新闻。（首页URL抓取自APP《兔玩游戏》）
+1、利用AFN、SDWebImage获取网络数据、tableView展示首页新闻。（首页URL抓取自APP《兔玩游戏》）
 
 ![image](https://github.com/zhangxguang/overwatch-picture/blob/master/overwatch%20%E9%A6%96%E9%A1%B5.png)
 
