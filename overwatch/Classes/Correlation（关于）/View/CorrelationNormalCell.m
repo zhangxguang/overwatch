@@ -24,6 +24,8 @@
 
 - (void)setArray:(NSArray *)array
 {
+    _array = array;
+    
     self.imageView.contentMode = UIViewContentModeScaleToFill;
     self.imageView.image = [UIImage imageNamed:array[0]];
     self.textLabel.text = array[1];
