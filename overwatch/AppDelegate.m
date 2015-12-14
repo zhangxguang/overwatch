@@ -27,10 +27,11 @@
     NSString *home = NSHomeDirectory();
     // 2.document路径
     NSString *docPath = [home stringByAppendingPathComponent:@"Documents"];
+    // 3.文件路径
     NSString *filePath = [docPath stringByAppendingPathComponent:@"herodata.plist"];
-    //获取数组
+    // 4.获取数组
     NSMutableArray *data = [NSMutableArray arrayWithContentsOfFile:filePath];
-    //如果数组为空，即文件不存在，则创建文件
+    // 5.如果数组为空，即文件不存在，则创建文件
     if (data == nil) {
         data = [NSMutableArray array];
         [data writeToFile:filePath atomically:YES];
