@@ -134,7 +134,7 @@ static NSString * const reuseIdentifier = @"Cell";
     HeroCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     //取出模型
     HeroMessage *message = self.Heromessages[indexPath.row];
-    //设置具有模糊效果的图片
+    //设置图片
     cell.imageView.image = [UIImage imageNamed:message.picture];
     
     return cell;
