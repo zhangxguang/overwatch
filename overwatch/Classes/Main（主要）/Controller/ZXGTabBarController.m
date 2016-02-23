@@ -16,6 +16,7 @@
 
 @interface ZXGTabBarController () <ZXGTabBarDelegate>
 @property (nonatomic, weak) ZXGTabBar *customTabBar;
+@property (nonatomic, strong) HomeViewController *oneVC;
 @end
 
 @implementation ZXGTabBarController
@@ -58,6 +59,11 @@
 - (void)tabBar:(ZXGTabBar *)tabBar didSelectedButtonFrom:(int)from to:(int)to
 {
     self.selectedIndex = to;
+    
+    //在首页，点击”首页“按钮，下拉刷新
+    if (from == to && to == 0) {
+        [self.oneVC initData];
+    }
 }
 
 //添加所有子控制器
@@ -66,6 +72,7 @@
     //添加第一个子控制器
     HomeViewController *oneVC = [[HomeViewController alloc] init];
     [self setUpOneChildViewController:oneVC image:[UIImage imageNamed:@"tabbar_home"] selectedImage:[UIImage imageNamed:@"tabbar_home_highlighted"] title:@"首页"];
+    self.oneVC = oneVC;
     //添加第二个子控制器
     HeroCollectionViewController *twoVC = [[HeroCollectionViewController alloc] init];
     [self setUpOneChildViewController:twoVC image:[UIImage imageNamed:@"radar_icon_people"] selectedImage:[UIImage imageNamed:@"radar_icon_people_selected"] title:@"英雄"];

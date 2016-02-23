@@ -46,6 +46,11 @@
     self.tableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreData)];
 }
 
+- (void)initData
+{
+    self.tableView.mj_header.state = MJRefreshStateRefreshing;
+}
+
 //加载数据
 - (void)setupHomeData
 {

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UITableViewController
-
+- (void)initData;
 @end

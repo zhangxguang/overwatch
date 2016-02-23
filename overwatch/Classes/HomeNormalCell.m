@@ -30,6 +30,7 @@
     self.title.text = data.title;
     self.click.text = [NSString stringWithFormat:@"%@人浏览", data.click];
     self.Description.text = data.Description;
+    self.Description.text = [NSString stringWithFormat:@"%@\n ", data.Description];
     NSURL *url = [NSURL URLWithString:data.litpic];
     [self.litpic sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"演示图片"]];
 }
