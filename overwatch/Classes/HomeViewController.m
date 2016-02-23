@@ -174,14 +174,13 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-//    //删除广告
-//    for (HomeImageCellData *data in self.homeData) {
-//        if ([data.Typename isEqualToString:@"推广"]) {
-//            [self.homeData removeObject:data];
-//        }
-//    }
-    
-//    NSLog(@"numberOfRowsInSection %lu", (unsigned long)self.homeData.count);
+    //删除广告
+    for (HomeImageCellData *data in self.homeData) {
+        if ([data.Typename isEqualToString:@"推广"]) {
+            [self.homeData removeObject:data];
+            break;//这行代码一定要加，不然会报错
+        }
+    }
     
     return self.homeData.count;
 }
